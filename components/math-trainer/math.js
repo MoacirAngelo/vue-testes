@@ -47,5 +47,7 @@ export default {
     //window.MathJax.typeset();
     window.MathJax.typeset();
   },
-  template: await importTemplate("../components/math-trainer/math.html"),
+  //template: await importTemplate("../components/math-trainer/math.html"),
+  //fix for githubpages
+  template: await importTemplate("/components/math-trainer/math.html"),
 };
