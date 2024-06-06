@@ -5,8 +5,13 @@ export default {
   data() {
     return {};
   },
+  /* fix for githubpages
   template: await importTemplate(
     "../components/improvement-areas/improvement-areas.html"
+
+  ),*/
+  template: await importTemplate(
+    "/vue-testes/components/improvement-areas/improvement-areas.html"
   ),
   methods: {
     getChart() {

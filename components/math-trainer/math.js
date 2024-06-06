@@ -49,5 +49,7 @@ export default {
   },
   //template: await importTemplate("../components/math-trainer/math.html"),
   //fix for githubpages
-  template: await importTemplate("/vue-testes/components/math-trainer/math.html"),
+  template: await importTemplate(
+    "/vue-testes/components/math-trainer/math.html"
+  ),
 };
