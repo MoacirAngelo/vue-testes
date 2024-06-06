@@ -1,0 +1,16 @@
+<div class="math">
+  <!--<h3>Math</h3>-->
+  <div class="tip">
+    <button @click="showTip = !showTip">Show tip</button>
+    <div v-show="showTip" class="tip">{{ tip }}</div>
+  </div>
+
+  <div class="question">{{ question }}</div>
+  <div :class="[error ? errorClass : correctClass]" class="answer">
+    {{ userInput }}
+  </div>
+  <div class="user-input">
+
+  <input v-model="userInput" @input="checkAnswer($event)" />
+  </div>
+</div>
