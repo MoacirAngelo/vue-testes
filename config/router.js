@@ -1,4 +1,5 @@
-import Math from "../components/math-trainer/math.js";
+//import Math from "../components/math-trainer/math.js";
+import Math from "/components/math-trainer/math.js";
 import ImprovementAreas from "../components/improvement-areas/improvement-areas.js";
 const About = { template: '<div class="about">About</div>' };
 
